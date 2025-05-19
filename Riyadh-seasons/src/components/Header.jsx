@@ -3,7 +3,7 @@ import riyadhSeasonLogo from "../assets/RiyadhSeason.webp";
 
 function Header() {
   return (
-    <header className="w-100 bg-dark text-white z-50 pt-2">
+    <header className="w-100 bg-transparent text-white  top-0 start-0 end-0 z-3 position-absolute">
       <nav className="container py-2">
         <div className="row align-items-center">
           <div className="col-4 d-flex justify-content-start">
@@ -57,5 +57,6 @@ function Header() {
     </header>
   );
 }
+
 
 export default Header;
