@@ -4,11 +4,10 @@ import heroVideo from "../assets/hero-Video_3.mp4";
 function Hero() {
   return (
     <div className="position-relative">
-      <div className="position-relative vh-100 overflow-hidden">
-        <video
+      <div className="position-relative vh-100 overflow-hidden">        <video
           className="position-absolute w-100 h-100 object-fit-cover"
           autoPlay
-          loop
+          loop          
           playsInline
         >
           <source src={heroVideo} type="video/mp4" />
@@ -24,11 +23,11 @@ function Hero() {
               </h1>
             </div>
             <div className="col-md-4 gap-2 d-flex justify-content-center align-items-start">
-              <button className="btn btn-outline-light btn-lg rounded-pill px-4 py-2 mb-4">
+              <button className="btn btn-outline-light btn-lg rounded-pill mb-4">
                 Explore
               </button>
 
-              <button className="btn btn-primary btn-lg rounded-pill px-4 mb-4">
+              <button className="btn btn-primary btn-lg rounded-pill mb-4">
                 Book Tickets
               </button>
             </div>

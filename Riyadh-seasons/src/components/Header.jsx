@@ -4,7 +4,7 @@ import riyadhSeasonLogo from "../assets/RiyadhSeason.webp";
 function Header() {
   return (
     <header className="w-100 bg-transparent text-white  top-0 start-0 end-0 z-3 position-absolute">
-      <nav className="container py-2">
+      <nav className="container-xxl py-2">
         <div className="row align-items-center">
           <div className="col-4 d-flex justify-content-start">
             <button className="btn p-0 border-0">
