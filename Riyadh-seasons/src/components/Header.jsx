@@ -1,5 +1,4 @@
 import React from "react";
-import riyadhSeasonLogo from "../assets/RiyadhSeason.webp";
 
 function Header() {
   return (
@@ -31,7 +30,7 @@ function Header() {
           <div className="col-4 d-flex justify-content-center">
             <a className="logo">
               <img
-                src={riyadhSeasonLogo}
+                src={'/RiyadhSeason.webp'}
                 alt="Riyadh Season Logo"
                 height="110"
                 width="85"

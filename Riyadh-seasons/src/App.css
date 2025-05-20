@@ -1,0 +1,13 @@
+.recap {
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+  z-index: 0;
+  pointer-events: none;
+}
+
+body {
+  background-color: #000000; 
+  color: white;
+  
+}

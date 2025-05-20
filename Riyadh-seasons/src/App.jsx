@@ -3,6 +3,9 @@ import Header from './components/header'
 import Footer from './components/Footer'
 import CardGrid from './components/CardGrid'
 import Hero from './components/Hero'
+import Recap from './components/Recap'
+import About from './components/About'
+import Partners from './components/partners'
 
 
 function App() {
@@ -12,6 +15,9 @@ function App() {
       <Header />
       <Hero />
       <CardGrid />
+      <Recap />
+      <About />
+      <Partners />
       <Footer />
      
     </>

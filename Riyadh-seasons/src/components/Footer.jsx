@@ -1,12 +1,10 @@
-import React from "react";
-import riyadhSeasonLogo from "../assets/RiyadhSeason.webp";
 
 function Footer() {
   return (
     <footer className="pt-4 text-white bg-black">
       <div className="container-xxl px-3 pb-4">
-        <div className="d-flex flex-column flex-lg-row align-items-center justify-content-center gap-4 py-4">
-          <img src={riyadhSeasonLogo} width="85" height="110" alt="Logo" />
+        <div className="d-flex flex-column flex-lg-row align-items-center justify-content-center gap-4 py-4 border-top border-secondary">
+          <img src={"/RiyadhSeason.webp"} width="85" height="110" alt="Logo" />
           <div className="d-flex gap-2">
             <a
               className="d-inline-flex align-items-center justify-content-center p-2 text-white"

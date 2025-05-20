@@ -1,20 +1,19 @@
-import React from "react";
-import heroVideo from "../assets/hero-Video_3.mp4";
 
 function Hero() {
   return (
     <div className="position-relative">
-      <div className="position-relative vh-100 overflow-hidden">        <video
+      <div className="position-relative vh-100 overflow-hidden">
+        <video
           className="position-absolute w-100 h-100 object-fit-cover"
           autoPlay
-          loop          
+          muted
+          loop
           playsInline
+          preload="auto"
         >
-          <source src={heroVideo} type="video/mp4" />
+          <source src="/hero-Video_3.mp4" type="video/mp4" />
         </video>
-
         <div className="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50"></div>
-
         <div className="container-xxl position-relative h-100 z-1 d-flex flex-column">
           <div className="row h-100 align-items-end p-2 text-white">
             <div className="col-md-8 col-lg-8">
