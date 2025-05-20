@@ -21,7 +21,7 @@ function Card({ bgImage, logoImage, Image2nd, isNew = false }) {
           style={{ inset: 0, zIndex: -1 }}
         />
 
-        <div className="h-100 w-100 p-3 d-flex flex-column justify-content-center align-items-center text-center bg-dark bg-opacity-75">
+        <div className="h-100 w-100 p-3 d-flex flex-column justify-content-center align-items-center text-center card-overlay">
           <img
             src={logoImage}
             className="d-block mx-auto mb-2"

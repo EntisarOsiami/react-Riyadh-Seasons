@@ -24,8 +24,8 @@ let exploreCards = [
     logoImage:
       "https://images.ctfassets.net/vy53kjqs34an/5OziW71cfEHu2ZHlpZE9r4/3cc7ce289cb04c9593c7fecfa29c026f/dior.png?fm=webp&fit=pad&w=140&h=140",
     Image2nd: null,
-  }, 
-   {
+  },
+  {
     bgImage:
       "https://images.ctfassets.net/vy53kjqs34an/3g9mJ3niUxmQ2ILNG2gc1S/899ab054d863c9f333ac0f4da45c4204/1280_x_1280_-1.jpg?fm=webp&fit=crop&w=1280&h=1280",
     logoImage:
@@ -93,6 +93,14 @@ let exploreCards = [
   },
   {
     bgImage:
+      "https://images.ctfassets.net/vy53kjqs34an/56GwAx2tlRijk85k0ZPvtU/72a1405def7784caa597d641e8779972/1280x1280.jpg?fm=webp&fit=crop&w=1280&h=1280",
+    logoImage:
+      "https://images.ctfassets.net/vy53kjqs34an/2aqEAdMXiXz0xvhlX4iTlb/cead25f7de0ac94c46e9237eec31f359/ana_arabia.png?fm=webp&fit=pad&w=140&h=140",
+    Image2nd: null,
+  },
+
+  {
+    bgImage:
       "https://images.ctfassets.net/vy53kjqs34an/6TcaMYEPFZpJKNfmx1ylLU/7ac2f8fea5723e6856bcba87e4198ef6/1280X1280.jpg?fm=webp&fit=crop&w=1280&h=1280",
     logoImage:
       "https://images.ctfassets.net/vy53kjqs34an/5r8tSDwbIB3S1ahKWFvFib/761ec6260acec1e690a0e2da7e7b05dc/logo.png?fm=webp&fit=pad&w=140&h=140",
@@ -103,13 +111,6 @@ let exploreCards = [
       "https://images.ctfassets.net/vy53kjqs34an/2qOMbX4oLfqrt0JZcurgVm/1dbf0eb82e82116c1ac3f2083bcd1432/1280_x_1280_px.jpg?fm=webp&fit=crop&w=2667&h=2667",
     logoImage:
       "https://images.ctfassets.net/vy53kjqs34an/29JmIZyaUXDTJZBNyRql1I/866b0fd369cfc49dfdf12e7dc01c78b5/Al_Hesn_Studios_Logo_new.png?fm=webp&fit=pad&w=140&h=140",
-    Image2nd: null,
-  },
-  {
-    bgImage:
-      "https://images.ctfassets.net/vy53kjqs34an/6TcaMYEPFZpJKNfmx1ylLU/7ac2f8fea5723e6856bcba87e4198ef6/1280X1280.jpg?fm=webp&fit=crop&w=1280&h=1280",
-    logoImage:
-      "https://images.ctfassets.net/vy53kjqs34an/5r8tSDwbIB3S1ahKWFvFib/761ec6260acec1e690a0e2da7e7b05dc/logo.png?fm=webp&fit=pad&w=140&h=140",
     Image2nd: null,
   },
 ];
